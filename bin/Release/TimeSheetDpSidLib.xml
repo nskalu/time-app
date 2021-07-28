@@ -1,0 +1,80 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TimeSheetDpSidLib
+</name>
+</assembly>
+<members>
+<member name="T:TimeSheetDpSidLib.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:TimeSheetDpSidLib.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:TimeSheetDpSidLib.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertRawBmpAsTemplate(System.Drawing.Bitmap,System.Int64,System.Int64)">
+ <summary>
+ Converts raw fingerprints bitmap as DP Template
+ </summary>
+ <param name="RawBmp">Raw fingerprints bitmap</param>
+ <param name="VertDpi">Vertical Resolution</param>
+ <param name="HorDpi">Horizontal Resolution</param>
+ <returns>DPFP.Template</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertSampleAsTemplate(DPFP.Sample)">
+ <summary>
+ Converts  DP Sample to DP Template
+ </summary>
+ <param name="Sample">DP Sample object</param>
+ <returns>DP Template</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertISOTemplateAsDPTemplate(System.Byte[])">
+ <summary>
+ Converts ISO Template Binary to DP Template
+ </summary>
+ <param name="ISOTemplate">ISO Template Binary</param>
+ <returns>DP Template</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertANSITemplateAsDPTemplate(System.Byte[])">
+ <summary>
+ Converts ANSI Template Binary to DP Template
+ </summary>
+ <param name="ANSITemplate">ANSI Template Binary</param>
+ <returns>DP Template</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertRawBmpAsISOTemplate(System.Drawing.Bitmap,System.Int64,System.Int64)">
+ <summary>
+ Returns binary of ISO Template
+ </summary>
+ <param name="RawBmp">Raw fingerprints bitmap</param>
+ <param name="VertDpi">Vertical Resolution</param>
+ <param name="HorDpi">Horizontal Resolution</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:TimeSheetDpSidLib.DPLibrary.ConvertRawBmpAsANSITemplate(System.Drawing.Bitmap,System.Int64,System.Int64)">
+ <summary>
+ Returns binary of ANSI Template
+ </summary>
+ <param name="RawBmp">Raw fingerprints bitmap</param>
+ <param name="VertDpi">Vertical Resolution</param>
+ <param name="HorDpi">Horizontal Resolution</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
